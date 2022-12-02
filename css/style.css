@@ -1,0 +1,19 @@
+/*--------------ПІДКЛЮЧЕННЯ ШРИФТІВ-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/*---------------------------------------------------*/
+body{
+    font-family: 'Lato', sans-serif;
+	color: #424551;
+}
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+
